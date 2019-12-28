@@ -1,0 +1,88 @@
+.center {
+ margin: 0 auto;
+ width: 200px;
+ background: white;
+ padding: 250px;
+ color: white;
+ position:relative;
+}
+.search-box{
+    height:2em;
+    width: 457px;
+    border:black solid;
+    border-radius:25px;
+    outline: none;
+    padding:5px;
+    font-size:1.15em;
+    margin-left:-50%   
+}
+.button{
+    border-color:white;
+    outline-color: wheat;
+    
+}
+.button:hover{
+    border-color:rgb(69, 69, 207);
+}
+.footerinfo {
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    overflow: hidden;
+    background-color:#aeb5b0;
+    
+}
+.footerinfo a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    background-color: #aeb5b0;
+    padding:8px;
+    margin:0px;
+    float:left;
+    border-top:#747a76;
+    font-size: 15px; 
+}
+.footerinfo a:hover{
+    text-decoration: underline;
+    
+}
+body{
+    margin:0;
+    
+}
+.right{
+    float:right;
+}
+.above{
+    background-color: #aeb5b0;
+    padding:14px 18px;
+    font-size:20px;
+    bottom:30px;
+    position:absolute;
+    width:98.1%;
+    border-top:solid #4d4f4e;
+    border-bottom:solid #4d4f4e;
+}
+.gora{
+    list-style-type: none;
+    top:0;
+    position: absolute;
+    width:98.1%
+}
+.gora a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    padding:8px;
+    
+    float:right;
+    
+}
+.gora img{
+    border:none 1px;
+    border-radius: 40px;
+}
